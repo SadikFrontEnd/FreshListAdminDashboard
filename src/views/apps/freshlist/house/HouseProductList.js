@@ -143,14 +143,7 @@ class HouseProductList extends React.Component {
       },
     ],
   };
-  // async componentDidMount() {
-  //     await axios.get(`http://35.154.86.59/api/user/view_onecust/${id}`)
-  //         .then((response) => {
-  //             let rowData = response.data.data;
-  //             console.log(rowData);
-  //             this.setState({ rowData });
-  //         });
-  // }
+
   // async componentDidMount() {
   //     await axios
   //         .get("http://35.154.86.59/api/user/allcustomer")
@@ -160,14 +153,7 @@ class HouseProductList extends React.Component {
   //             this.setState({ rowData });
   //         });
   // }
-  // // async componentDidMount() {
-  // //   let { id } = this.props.match.params;
-  // //   await axios
-  // //     .get(`/http://35.154.86.59/api/user/allcustomer/${id}`, {
-  // //       headers: {
-  // //         "auth-adtoken": localStorage.getItem("auth-adtoken"),
-  // //       },
-  // //     })}
+
   // async runthisfunction(id) {
   //     console.log(id);
   //     await axios.get(`http://35.154.86.59/api/user/delcustomer/${id}`).then(
